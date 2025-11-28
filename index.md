@@ -1,4 +1,8 @@
-Hello, I am a PhD Candidate in Economics at the Paris School of Economics (PSE). My research focuses on inequality, economic history, the history of development, and development economics. You can find my CV [here](assets/cv_SANCHEZ_ORDONEZ.pdf). Please reach out at: d.sanchez.ordonez\[at\]psemail\[dot\]eu
+Hello! I am a PhD Candidate in Economics at the Paris School of Economics (PSE) and a Research Fellow at the World Inequality Lab. My work sits at the intersection of economic history, development economics, and political economy, with a focus on understanding how land, agriculture, and institutions shape long-run inequality and conflict.
+
+My research combines new data collection, archival and historical analysis, and modern empirical methods. Much of my work focuses on Latin America—particularly Colombia and the history of land inequality—while also drawing comparative insights from across the developing world. My current projects study the historical roots of land conflict, the global evolution of land inequality, and 20th-century land reform, alongside broader questions about how commodity booms, frontier expansion, and shifts in state institutions shaped long-run patterns of uneven development in the Global South in a historical perspective.
+
+I hold an M.S. in Economics from the Paris School of Economics and a B.A. with Honors in Economics from Stanford University. You can find my CV [here](assets/cv_SANCHEZ_ORDONEZ.pdf). Please reach out at: d.sanchez.ordonez\[at\]psemail\[dot\]eu
 
 ---
 
