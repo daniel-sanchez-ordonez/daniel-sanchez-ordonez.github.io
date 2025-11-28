@@ -1,4 +1,4 @@
-Hello, I am a PhD Candidate in Economics at the Paris School of Economics (PSE). My research focuses on inequality, economic history, the history of development, and development economics. You can find my CV [here](https://www.dropbox.com/scl/fi/dqsr70ngonbbebqgcvg1d/cv.pdf?rlkey=wg4ig43pvbljewtzx6zpsgpqh&st=o7z3akxe&dl=0). Please reach out at: d.sanchez.ordonez\[at\]psemail\[dot\]eu
+Hello, I am a PhD Candidate in Economics at the Paris School of Economics (PSE). My research focuses on inequality, economic history, the history of development, and development economics. You can find my CV [here](assets/cv_SANCHEZ_ORDONEZ.pdf). Please reach out at: d.sanchez.ordonez\[at\]psemail\[dot\]eu
 
 ---
 
