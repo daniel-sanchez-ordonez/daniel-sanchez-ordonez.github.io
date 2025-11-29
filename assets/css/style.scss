@@ -49,3 +49,60 @@ header p {
   color: #000;
 }
 
+/* ============================================================
+   LAYOUT: Move photo/name column LEFT + widen text column
+   ============================================================ */
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+
+  /* Page width — INCREASE to widen the whole page */
+  max-width: 1400px;       
+
+  /* Center the whole layout on the page */
+  margin: 0 auto;
+
+  /* Space between left and right columns */
+  gap: 50px;
+}
+
+/* ----------------------------------
+   LEFT COLUMN (photo + name)
+   ---------------------------------- */
+header {
+  /* Width of the left column (photo + name) */
+  flex: 0 0 260px;     
+
+  text-align: center;
+  margin-left: 0;       /* pushes the column fully left */
+}
+
+/* PHOTO SIZE — adjust as needed */
+header img {
+  max-width: 250px;     /* ← Change this number to make photo bigger/smaller */
+  height: auto;
+  display: block;
+  margin: 0 auto;       /* keep photo centered inside header */
+}
+
+/* ----------------------------------
+   RIGHT COLUMN (research text)
+   ---------------------------------- */
+section {
+  flex: 1;               /* takes all leftover space */
+  max-width: none;       /* allow full expansion */
+  margin-right: 0;       /* change if you want right margin */
+}
+
+/* ----------------------------------
+   OPTIONAL: overall margins
+   ---------------------------------- */
+
+/* This controls the space between the content and the browser edges */
+body {
+  padding-left: 40px;     /* increase to move everything right */
+  padding-right: 40px;    /* increase to add right margin */
+}
+
+
