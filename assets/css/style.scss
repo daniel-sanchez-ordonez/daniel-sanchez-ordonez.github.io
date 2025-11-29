@@ -2,10 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600&display=swap');
+//@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"); Garamond
 
 body {
-  font-family: "EB Garamond", Garamond, "Times New Roman", serif !important;
+  font-family: 'Crimson Pro', serif !important;      //font-family: "EB Garamond", Garamond, "Times New Roman", serif !important;
   font-size: 19px;
   line-height: 1.6;
   color: #000;
