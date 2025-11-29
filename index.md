@@ -11,11 +11,23 @@ I hold an M.S. in Economics from the Paris School of Economics and a B.A. in Eco
 ## Working Papers
 
 **(Un-)Persistent Conflict? The Effects of First Globalization Coffee Boom in Colombia** <br>
-[[Paper](https://www.dropbox.com/scl/fi/3qi4xo9gavvsbrgnwwmu7/Coffee_Conflict_SANCHEZ_ORDONEZ.pdf?rlkey=cr3o21urhkn1sb653u1xhzwxd&st=fdszhtox&dl=0)]
+<details>
+<summary>Abstract</summary>
+
+This paper studies the effects of pulse price supports on production,
+investment decisions, and market outcomes in India…
+
+</details>| [[Paper](https://www.dropbox.com/scl/fi/3qi4xo9gavvsbrgnwwmu7/Coffee_Conflict_SANCHEZ_ORDONEZ.pdf?rlkey=cr3o21urhkn1sb653u1xhzwxd&st=fdszhtox&dl=0)]
 
 **Land Inequality in the Developing World**<br>
 (with Luis Bauluz, Yajna Govind, and Filip Novokmet)<br>
-[[Paper](https://www.dropbox.com/scl/fi/bv08nc7on3zqz7esxofe9/Chapter-2.pdf?rlkey=4cqu23kaodr6r3pw94wukziub&e=1&st=nsx2mwpr&dl=0)] | *Updated Version Coming Soon*
+<details>
+<summary>Abstract</summary>
+
+This paper studies the effects of pulse price supports on production,
+investment decisions, and market outcomes in India…
+
+</details>|[[Paper](https://www.dropbox.com/scl/fi/bv08nc7on3zqz7esxofe9/Chapter-2.pdf?rlkey=4cqu23kaodr6r3pw94wukziub&e=1&st=nsx2mwpr&dl=0)] | *Updated Version Coming Soon*
 
 ---
 
@@ -26,7 +38,13 @@ I hold an M.S. in Economics from the Paris School of Economics and a B.A. in Eco
 **Farm Size and Income Distribution of Latin American Agriculture: New Perspectives on an Old Issue**<br>
 (with Ana María Ibáñez, Margarita Gáfaro, and María Camila Ortiz) <br>
 *Oxford Open Economics*, Vol. 4: i148–i166 (2025)<br>
-[[Publisher’s Link](https://academic.oup.com/ooec/article/4/Supplement_1/i148/8046465?login=false)] | [[Paper](https://www.dropbox.com/scl/fi/4if7nzwutqjcxe8zqyjdw/Chapter-3.pdf?rlkey=o9oxkrvwbhrmas98b76fb2vnl&e=1&st=xhbz7vgf&dl=0)]
+<details>
+<summary>Abstract</summary>
+
+This paper studies the effects of pulse price supports on production,
+investment decisions, and market outcomes in India…
+
+</details>|[[Publisher’s Link](https://academic.oup.com/ooec/article/4/Supplement_1/i148/8046465?login=false)] | [[Paper](https://www.dropbox.com/scl/fi/4if7nzwutqjcxe8zqyjdw/Chapter-3.pdf?rlkey=o9oxkrvwbhrmas98b76fb2vnl&e=1&st=xhbz7vgf&dl=0)]
 
 ---
 
@@ -35,5 +53,11 @@ I hold an M.S. in Economics from the Paris School of Economics and a B.A. in Eco
 ## Work In Progress
 
 **Land Reform in the 20th Century**<br>
-(with Rowaida Moshrif)
+<details>
+<summary>Abstract</summary>
+
+This paper studies the effects of pulse price supports on production,
+investment decisions, and market outcomes in India…
+
+</details>|(with Rowaida Moshrif)
 
