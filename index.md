@@ -10,14 +10,7 @@ I hold an M.S. in Economics from the Paris School of Economics and a B.A. in Eco
 
 ## Working Papers
 
-**(Un-)Persistent Conflict? The Effects of First Globalization Coffee Boom in Colombia**
-<details> <summary>Abstract | <a href="https://www.dropbox.com/scl/fi/3qi4xo9gavvsbrgnwwmu7/Coffee_Conflict_SANCHEZ_ORDONEZ.pdf?rlkey=cr3o21urhkn1sb653u1xhzwxd&st=fdszhtox&dl=0">Paper</a></summary>
-
-  This paper studies the effects of pulse price supports on production,
-  investment decisions, and market outcomes in India…
-</details>
-
-<br>
+**(Un-)Persistent Conflict? The Effects of First Globalization Coffee Boom in Colombia** <br>
 [[Paper](https://www.dropbox.com/scl/fi/3qi4xo9gavvsbrgnwwmu7/Coffee_Conflict_SANCHEZ_ORDONEZ.pdf?rlkey=cr3o21urhkn1sb653u1xhzwxd&st=fdszhtox&dl=0)]
 
 
