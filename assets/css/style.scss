@@ -76,3 +76,42 @@ header img {
   height: auto;
 }
 
+/* ============================================================
+   MOBILE LAYOUT FIX
+   Apply only on screens smaller than 768px (phones)
+   ============================================================ */
+@media (max-width: 768px) {
+
+  /* full-width mobile layout */
+  .wrapper {
+    width: 100%;
+    padding: 0 20px;   /* small side padding */
+    display: block;    /* stop side-by-side layout */
+  }
+
+  /* stack columns vertically */
+  header, section {
+    width: 100% !important;
+    display: block;
+  }
+
+  /* center the name + photo */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* scale image for small screens */
+  header img {
+    max-width: 180px;
+    height: auto;
+  }
+
+  /* improve text readability on phones */
+  body {
+    font-size: 17px;
+    line-height: 1.55;
+  }
+}
+
+
