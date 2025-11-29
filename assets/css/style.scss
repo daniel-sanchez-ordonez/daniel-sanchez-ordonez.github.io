@@ -61,17 +61,17 @@ header p {
 
 /* 2) Left column: name + photo */
 header {
-  width: 260px;         /* ← change this to make the left column narrower/wider */
+  width: 300px;         /* ← change this to make the left column narrower/wider */
 }
 
 /* 3) Right column: main text */
 section {
-  width: 840px;         /* ← change this to give the text column more or less space */
+  width: 800px;         /* ← change this to give the text column more or less space */
 }
 
 /* 4) Photo size */
 header img {
-  max-width: 260px;     /* ← change this to resize the portrait */
+  max-width: 220px;     /* ← change this to resize the portrait */
   height: auto;
 }
 
