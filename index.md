@@ -34,6 +34,6 @@ I hold an M.S. in Economics from the Paris School of Economics and a B.A. in Eco
 
 ## Work In Progress
 
-"Land Reform in the 20th Century"<br>
+*Land Reform in the 20th Century*<br>
 (with Rowaida Moshrif)
 
