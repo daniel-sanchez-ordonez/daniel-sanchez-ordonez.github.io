@@ -13,11 +13,10 @@ I hold an M.S. in Economics from the Paris School of Economics and a B.A. in Eco
 **(Un-)Persistent Conflict? The Effects of First Globalization Coffee Boom in Colombia** <br>
 <details>
 <summary>Abstract</summary>
-
 This paper studies the effects of pulse price supports on production,
 investment decisions, and market outcomes in India…
-
-</details>| [[Paper](https://www.dropbox.com/scl/fi/3qi4xo9gavvsbrgnwwmu7/Coffee_Conflict_SANCHEZ_ORDONEZ.pdf?rlkey=cr3o21urhkn1sb653u1xhzwxd&st=fdszhtox&dl=0)]
+</details>
+| [[Paper](https://www.dropbox.com/scl/fi/3qi4xo9gavvsbrgnwwmu7/Coffee_Conflict_SANCHEZ_ORDONEZ.pdf?rlkey=cr3o21urhkn1sb653u1xhzwxd&st=fdszhtox&dl=0)]
 
 **Land Inequality in the Developing World**<br>
 (with Luis Bauluz, Yajna Govind, and Filip Novokmet)<br>
