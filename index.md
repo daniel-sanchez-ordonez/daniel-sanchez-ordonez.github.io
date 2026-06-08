@@ -13,7 +13,7 @@ Hello! I am a PhD Candidate in Economics at the Paris School of Economics (PSE) 
 
 **Land Inequality in the Developing World**<br>
 (with Luis Bauluz, Yajna Govind, and Filip Novokmet)<br>
-[[Paper](https://www.dropbox.com/scl/fi/bv08nc7on3zqz7esxofe9/Chapter-2.pdf?rlkey=4cqu23kaodr6r3pw94wukziub&e=1&st=nsx2mwpr&dl=0)] | *Updated Version Coming Soon*
+[[Paper]([https://www.dropbox.com/scl/fi/bv08nc7on3zqz7esxofe9/Chapter-2.pdf?rlkey=4cqu23kaodr6r3pw94wukziub&e=1&st=nsx2mwpr&dl=0](https://www.dropbox.com/scl/fi/a3nmm4efe5460ouqubag4/Chapter-2.pdf?rlkey=5cs7fjzcxfz6mkdp5qydrtzoh&st=8gcl9any&dl=0))] | *Updated Version Coming Soon*
 
 ---
 
