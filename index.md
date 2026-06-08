@@ -24,14 +24,9 @@ Hello! I am a PhD Candidate in Economics at the Paris School of Economics (PSE) 
 **Farm Size and Income Distribution of Latin American Agriculture: New Perspectives on an Old Issue**<br>
 (with Ana María Ibáñez, Margarita Gáfaro, and María Camila Ortiz) <br>
 *Oxford Open Economics*, Vol. 4: i148–i166 (2025)<br>
-[[Publisher’s Link](https://academic.oup.com/ooec/article/4/Supplement_1/i148/8046465?login=false)] | [[LSE-III-WP](https://www.dropbox.com/scl/fi/4thft0gyddimttuf7wbk7/III_working_paper_105.pdf?rlkey=ysy0dfxh4pfxewjgiuxxsr6th&st=d6avfh1f&dl=0)] | [[IADB-WP](https://publications.iadb.org/en/farm-size-and-income-distribution-latin-american-agriculture-new-perspectives-old-issue)] | [[Paper](https://www.dropbox.com/scl/fi/4if7nzwutqjcxe8zqyjdw/Chapter-3.pdf?rlkey=o9oxkrvwbhrmas98b76fb2vnl&e=1&st=xhbz7vgf&dl=0)]
+[[Publisher’s Link](https://academic.oup.com/ooec/article/4/Supplement_1/i148/8046465?login=false)] | [[LSE-III-WP](https://www.dropbox.com/scl/fi/4thft0gyddimttuf7wbk7/III_working_paper_105.pdf?rlkey=ysy0dfxh4pfxewjgiuxxsr6th&st=d6avfh1f&dl=0)] | [[IADB-WP](https://publications.iadb.org/en/farm-size-and-income-distribution-latin-american-agriculture-new-perspectives-old-issue)] 
 
 ---
 
 
-
-## Work In Progress
-
-**Land Reform in the 20th Century**<br>
-(with Rowaida Moshrif)
 
