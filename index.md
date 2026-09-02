@@ -1,4 +1,4 @@
-Hello! I am a PhD Candidate in Economics at the Paris School of Economics (PSE) and a Research Fellow at the World Inequality Lab. My work sits at the intersection of economic history, development economics, and political economy. You can find my CV [here](assets/cv_SANCHEZ_ORDONEZ.pdf). Please reach out at: d.sanchez.ordonez\[at\]psemail\[dot\]eu
+Hello! I am a PhD Candidate in Economics at the Paris School of Economics (PSE) and a Research Fellow at the World Inequality Lab. My work sits at the intersection of economic history, development economics, and political economy. You can find my CV [here](assets/cv_SANCHEZ_ORDONEZ.pdf). Please reach out at: d.sanchez.ordonez0\[at\]gmail\[dot\]com
 
 ---
 
