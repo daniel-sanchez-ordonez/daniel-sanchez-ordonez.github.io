@@ -2,7 +2,8 @@ I am a Postdoctoral Researcher at Università Roma Tre. I am also a Research Fel
 
 I received my Ph.D. in Economics from the Paris School of Economics and my B.A. in Economics from Stanford University.
 
-My research interests lie at the intersection of economic history, development economics, and political economy. Please reach out at: d.sanchez.ordonez0\[at\]gmail\[dot\]com
+My research interests lie at the intersection of economic history, development economics, and political economy.<br>
+Please reach out at: d.sanchez.ordonez0\[at\]gmail\[dot\]com
 
 ---
 
@@ -29,8 +30,5 @@ My research interests lie at the intersection of economic history, development e
 (with Ana María Ibáñez, Margarita Gáfaro, and María Camila Ortiz) <br>
 *Oxford Open Economics*, Vol. 4: i148–i166 (2025)<br>
 [[Publisher’s Link](https://academic.oup.com/ooec/article/4/Supplement_1/i148/8046465?login=false)] | [[LACIR–International Inequalities Institute Working Paper](https://www.dropbox.com/scl/fi/4thft0gyddimttuf7wbk7/III_working_paper_105.pdf?rlkey=ysy0dfxh4pfxewjgiuxxsr6th&st=d6avfh1f&dl=0)] | [[Inter-American Development Bank Working Paper](https://publications.iadb.org/en/farm-size-and-income-distribution-latin-american-agriculture-new-perspectives-old-issue)] 
-
----
-
 
 
