@@ -78,13 +78,13 @@ header img {
 
 /* 5) Light vertical line between photo column and text */
 section {
-  border-left: 1px solid rgba(60, 40, 20, 0.18);   /* ← line color/strength */
+  border-left: 1px solid rgba(60, 40, 20, 0.14);   /* ← line color/strength */
   padding-left: 48px;   /* ← space between the line and the text */
 }
 
-/* 6) Section dividers (the --- lines): darker and clearer */
+/* 6) Section dividers (the --- lines) */
 hr {
-  background: rgba(60, 40, 20, 0.5);
+  background: rgba(60, 40, 20, 0.3);
   height: 1px;
   margin: 30px 0 26px;
 }
@@ -94,7 +94,7 @@ hr {
   section {
     border-left: 0;
     padding-left: 0;
-    border-color: rgba(60, 40, 20, 0.18);
+    border-color: rgba(60, 40, 20, 0.14);
   }
 }
 
