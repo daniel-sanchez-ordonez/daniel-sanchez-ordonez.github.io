@@ -76,6 +76,28 @@ header img {
   height: auto;
 }
 
+/* 5) Light vertical line between photo column and text */
+section {
+  border-left: 1px solid rgba(60, 40, 20, 0.18);   /* ← line color/strength */
+  padding-left: 48px;   /* ← space between the line and the text */
+}
+
+/* 6) Section dividers (the --- lines): darker and clearer */
+hr {
+  background: rgba(60, 40, 20, 0.5);
+  height: 1px;
+  margin: 30px 0 26px;
+}
+
+/* When the columns stack (narrow screens), drop the vertical line */
+@media (max-width: 960px) {
+  section {
+    border-left: 0;
+    padding-left: 0;
+    border-color: rgba(60, 40, 20, 0.18);
+  }
+}
+
 /* ============================================================
    MOBILE LAYOUT FIX
    Apply only on screens smaller than 768px (phones)
@@ -86,6 +108,7 @@ header img {
   .wrapper {
     width: 100%;
     padding: 0 20px;   /* small side padding */
+    box-sizing: border-box;   /* keep padding inside the screen width (no cut-off text) */
     display: block;    /* stop side-by-side layout */
   }
 
