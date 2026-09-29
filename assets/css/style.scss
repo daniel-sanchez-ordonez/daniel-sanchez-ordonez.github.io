@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Crimson Pro', serif !important;      //font-family: "EB Garamond", Garamond, "Times New Roman", serif !important;
-  font-size: 19px;
-  line-height: 1.45;
+  font-size: 17px;
+  line-height: 1.4;
   color: #000;
   /* ✨ elegant cream background -- before there was nothing here and color of letters was #111. first cream i tried was f7f2e8*/
   background-color: #f3e9d7;
@@ -56,7 +56,7 @@ header p {
 
 /* 1) Overall page width */
 .wrapper {
-  width: 1040px;        /* ← change this to make the whole content area wider/narrower */
+  width: 980px;         /* ← change this to make the whole content area wider/narrower */
   margin: 0 auto;
 }
 
@@ -67,7 +67,7 @@ header {
 
 /* 3) Right column: main text */
 section {
-  width: 660px;         /* ← change this to give the text column more or less space */
+  width: 600px;         /* ← change this to give the text column more or less space */
 }
 
 /* 4) Photo size */
@@ -84,18 +84,18 @@ section {
 
 /* 6) Section dividers (the --- lines) */
 hr {
-  background: rgba(60, 40, 20, 0.3);
+  background: rgba(60, 40, 20, 0.18);
   height: 1px;
-  margin: 24px 0 20px;
+  margin: 20px 0 16px;
 }
 
 /* 7) Tighter spacing between paragraphs and under section titles */
 section p {
-  margin: 0 0 14px;
+  margin: 0 0 12px;
 }
 
 section h2 {
-  margin: 0 0 14px;
+  margin: 0 0 12px;
 }
 
 /* When the columns stack (narrow screens), drop the vertical line */

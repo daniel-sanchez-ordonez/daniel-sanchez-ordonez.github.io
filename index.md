@@ -2,9 +2,7 @@ I am a Postdoctoral Researcher at Università Roma Tre. I am also a Research Fel
 
 I received my Ph.D. in Economics from the Paris School of Economics and my B.A. in Economics from Stanford University.
 
-My research interests lie at the intersection of economic history, development economics, and political economy.
-
-Please reach out at: d.sanchez.ordonez0\[at\]gmail\[dot\]com
+My research interests lie at the intersection of economic history, development economics, and political economy. Please reach out at: d.sanchez.ordonez0\[at\]gmail\[dot\]com
 
 ---
 
