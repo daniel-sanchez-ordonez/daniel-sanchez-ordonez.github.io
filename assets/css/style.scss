@@ -2,8 +2,16 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600&display=swap');
+// B3: also request the true italic (ital axis); weights as a range so bold/italic are never faked
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300..600;1,300..600&display=swap');
 //@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"); Garamond
+
+$ink:       #000;
+$muted:     #5c5046;       // warm brown-grey for co-authors, venue, separators (6.5:1 on the cream)
+$link:      #002FA7;
+$link-dark: #001C6C;
+$rule:      rgba(60, 40, 20, 0.18);
+$vrule:     rgba(60, 40, 20, 0.14);
 
 body {
   font-family: 'Crimson Pro', serif !important;      //font-family: "EB Garamond", Garamond, "Times New Roman", serif !important;
@@ -29,9 +37,7 @@ header h1 {
   color: #000;
   font-weight: 600;
   text-align: center;
-  font-size: 1.6em;
-  white-space: nowrap;  /* keep the name on one line */
-  margin-bottom: 0.6em;
+  margin-bottom: 0.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,9 +51,7 @@ header img {
 }
 
 header p {
-  font-size: 1.2em; //was .95
-  font-variant-caps: all-small-caps;  /* CV · EMAIL in small capitals */
-  letter-spacing: 0.06em;
+  font-size: .95em; //was .85
   line-height: 1.4;
   text-align: center;
   margin-top: 0.5em;
@@ -60,7 +64,7 @@ header p {
 
 /* 1) Overall page width */
 .wrapper {
-  width: 980px;         /* ← change this to make the whole content area wider/narrower */
+  width: 952px;         /* B13: was 980px -> photo-to-line gap now equals line-to-text gap (48px) */
   margin: 0 auto;
 }
 
@@ -96,69 +100,106 @@ hr {
 /* 7) Tighter spacing between paragraphs and under section titles */
 section p {
   margin: 0 0 12px;
-  text-align: justify;      /* straight right edge */
-  hyphens: auto;            /* even word spacing */
-  -webkit-hyphens: auto;
-  text-wrap: pretty;
 }
 
 section h2 {
   margin: 0 0 12px;
-  font-size: 1.35em;
+}
+
+/* ############################################################
+   EDITORIAL REFINEMENTS (variant B)
+   Each numbered block can be adopted on its own.
+   ############################################################ */
+
+/* ---- B1  Clean text edges: justified + hyphenated bio -------------- */
+body {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+}
+section p {
+  -webkit-hyphens: auto;
+  hyphens: auto;                        /* needs <html lang>, already set by the layout */
+  hyphenate-limit-chars: 6 3 3;         /* only words of 6+ letters, 3+ letters each side */
+  -webkit-hyphenate-limit-before: 3;    /* Safari equivalents */
+  -webkit-hyphenate-limit-after: 3;
+  -webkit-hyphenate-limit-lines: 2;     /* never more than 2 hyphens in a row */
+  text-wrap: pretty;                    /* no one-word last lines */
+}
+/* justify only where lines are long enough to justify evenly (>= ~75 characters);
+   on phones the text stays flush-left, still hyphenated */
+@supports (hyphens: auto) or (-webkit-hyphens: auto) {
+  @media (min-width: 600px) {
+    section p { text-align: justify; text-justify: inter-word; }
+  }
+}
+/* publication entries, the e-mail line and link labels: always flush-left, never hyphenated */
+section p.paper,
+section p.contact { text-align: left; -webkit-hyphens: manual; hyphens: manual; }
+a, h1, h2, header p { -webkit-hyphens: manual; hyphens: manual; }
+.nw { white-space: nowrap; }
+
+/* ---- B2  Links: no bold jump on hover / focus ---------------------- */
+a:hover, a:focus {                      /* the theme makes links bold + teal here */
+  color: $link-dark;
+  font-weight: 500;
+}
+a:hover, a:focus-visible {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: rgba(0, 47, 167, 0.4);
+}
+a:focus:not(:focus-visible) { outline: none; }
+a:focus-visible { outline: 1px solid $link; outline-offset: 2px; border-radius: 2px; }
+
+/* ---- B4  Name on one line ------------------------------------------ */
+header h1 {
+  font-size: 26px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+@media (max-width: 330px) { header h1 { white-space: normal; } }
+
+/* ---- B5  Sidebar links: "CV · Email" --------------------------------- */
+header p .sep { color: $muted; margin: 0 .15em; }
+
+/* ---- B6  Section headings as small letter-spaced capitals ---------- */
+section h2 {
+  font-size: 0.8em;                     /* 13.6px */
   font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;            /* real capitals: Crimson Pro has no small caps */
+  margin: 0 0 12px;
 }
 
-/* When the columns stack (narrow screens), drop the vertical line */
+/* ---- B7  Paper entries: title / with … / venue / links ------------- */
+section p.paper { margin: 0 0 14px; }
+section p.paper strong { font-weight: 600; color: inherit; }
+section p.paper > strong:first-child { display: block; text-wrap: balance; }  /* evenly broken titles */
+section p.paper > strong:first-child + br { display: none; }
+section .meta  { color: $muted; }
+section .venue { color: $muted; }
+section .venue em { color: $ink; }
+section .links { font-size: 0.94em; }
+section .links a { white-space: nowrap; }
+section .links .sep { color: $muted; margin: 0 .1em; }
+@media (max-width: 700px) { br.sub { display: none; } }   /* subtitle break only on wide screens */
+
+
+/* ---- B12  Responsive layout (replaces the old 960px / 768px blocks) - */
+/* 961–1067px (961–1095px with a 980px wrapper): shrink the text column instead of cutting it off */
+.wrapper { max-width: 100%; }
+section  { max-width: calc(100% - 280px - 49px - 23px); }
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }   /* no iOS text inflation in landscape */
+
+/* 960px and below: one centred column for tablets and phones */
 @media (max-width: 960px) {
-  section {
-    border-left: 0;
-    padding-left: 0;
-    border-color: rgba(60, 40, 20, 0.14);
-  }
+  body        { margin: 0; padding: 32px 22px 40px; line-height: 1.45; }
+  div.wrapper { width: auto; max-width: 600px; margin: 0 auto; padding: 0; }  /* div. beats the theme's div.wrapper{margin:0} */
+  header      { width: auto !important; padding: 0 !important; text-align: center; margin: 0 0 18px; }
+  header img  { max-width: 180px; height: auto; }
+  section     { width: auto !important; max-width: none; margin: 0; padding: 18px 0 50px;
+                border: 0; border-top: 1px solid $vrule; }
 }
-
-/* ============================================================
-   MOBILE LAYOUT FIX
-   Apply only on screens smaller than 768px (phones)
-   ============================================================ */
-@media (max-width: 768px) {
-
-  /* full-width mobile layout */
-  .wrapper {
-    width: 100%;
-    padding: 0 20px;   /* small side padding */
-    box-sizing: border-box;   /* keep padding inside the screen width (no cut-off text) */
-    display: block;    /* stop side-by-side layout */
-  }
-
-  /* stack columns vertically */
-  header, section {
-    width: 100% !important;
-    display: block;
-  }
-
-  /* center the name + photo */
-  header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  /* scale image for small screens */
-  header img {
-    max-width: 180px;
-    height: auto;
-  }
-
-  /* improve text readability on phones */
-  body {
-    font-size: 17px;
-    line-height: 1.55;
-  }
-
-  /* narrow column: normal left alignment (justifying opens big word gaps) */
-  section p {
-    text-align: left;
-  }
-}
-
-
